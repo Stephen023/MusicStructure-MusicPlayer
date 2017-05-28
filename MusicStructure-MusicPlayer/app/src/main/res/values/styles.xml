@@ -1,0 +1,143 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for image background -->
+    <style name="image_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for main button (Playlist) on MainActivity screen-->
+    <style name="CategoryStyle1">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:background">@color/colorWhiteTransparent25</item>
+        <item name="android:textColor">@color/colorWhiteTransparent80</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">@dimen/categories_buttons_height</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Style for main button (Search and Radio) on MainActivity screen-->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">225dp</item>
+        <item name="android:background">@color/colorWhiteTransparent25</item>
+        <item name="android:textColor">@color/colorWhiteTransparent80</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">@dimen/categories_buttons_height</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for Search -EditText -->
+    <style name="Search_Song_Artist_or_Album_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">@dimen/padding_large_x</item>
+        <item name="android:paddingBottom">@dimen/padding_large_x</item>
+        <item name="android:paddingRight">@dimen/padding_large_x</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories</item>
+    </style>
+
+    <!-- Style for Playlist screen-->
+    <style name="Playlist_Category_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_medium</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:background">@color/colorWhiteTransparent25</item>
+        <item name="android:textColor">@color/colorWhiteTransparent80</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories</item>
+    </style>
+
+    <!-- Style for Playlist screen- add playlist-->
+    <style name="Add_Playlist_Category_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_large</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingLeft">@dimen/padding_extra_large</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@color/colorWhiteTransparent25</item>
+        <item name="android:textColor">@color/colorWhiteTransparent80</item>
+        <item name="android:textSize">@dimen/textSize_PlaylistCategories</item>
+    </style>
+
+    <!-- Player Buttons layout. -->
+    <style name="playerLayout">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <!-- Player Buttons layout (next and previous). -->
+    <style name="playerButtons">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!-- Play button -->
+    <style name="playerButtons.Play">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!-- TextView Description -->
+    <style name="styleTextView" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textColor">@color/colorWhiteTransparent80</item>
+        <item name="android:background">@color/colorWhiteTransparent25</item>
+    </style>
+
+    <!-- Seek Bar. -->
+    <style name="seekBar" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Radio Image -->
+    <style name="imageRadio">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">75dp</item>
+    </style>
+
+</resources>

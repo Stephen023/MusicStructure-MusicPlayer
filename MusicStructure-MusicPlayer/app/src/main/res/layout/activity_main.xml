@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/image_style"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images23"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/CategoryStyle1"
+            android:background="@color/category_playlist"
+            android:contentDescription="@string/contentDescription_main_buttons"
+            android:text="@string/category_playlist" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/CategoryStyle"
+            android:background="@color/category_search"
+            android:contentDescription="@string/contentDescription_main_buttons"
+            android:text="@string/category_search" />
+
+
+        <TextView
+            android:id="@+id/radio"
+            style="@style/CategoryStyle"
+            android:layout_marginBottom="145dp"
+            android:background="@color/category_radio"
+            android:contentDescription="@string/contentDescription_main_buttons"
+            android:text="@string/category_radio" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            style="@style/seekBar" />
+
+        <LinearLayout
+            android:id="@+id/player"
+            style="@style/playerLayout"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/playerButtons"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_skip_previous_white_48dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/playerButtons.Play"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_play_02" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/playerButtons"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_skip_next_white_48dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/image_style"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images23"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".Radio">
+
+        <TextView
+            android:id="@+id/radio_text_view"
+            style="@style/styleTextView"
+            android:text="@string/radio_text" />
+
+        <ImageView
+            android:id="@+id/album_cover"
+            style="@style/imageRadio"
+            android:contentDescription="@string/contentDescription_albums"
+            android:src="@drawable/album_cover_radio_2" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            style="@style/seekBar" />
+
+        <LinearLayout
+            android:id="@+id/player"
+            style="@style/playerLayout">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/playerButtons"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_skip_previous_white_48dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/playerButtons.Play"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_play_02" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/playerButtons"
+                android:contentDescription="@string/contentDescription_player"
+                android:src="@drawable/ic_skip_next_white_48dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

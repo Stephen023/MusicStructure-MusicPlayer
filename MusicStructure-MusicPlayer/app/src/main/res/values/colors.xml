@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#424242</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <color name="Background_color">#d7ccc8</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the playing category -->
+    <color name="category_search">#424242</color>
+
+    <!-- Background color for the playlist category -->
+    <color name="category_playlist">#424242</color>
+
+    <!-- Background color for the radio category -->
+    <color name="category_radio">#424242</color>
+
+    <color name="Search_Song_Artist_or_Album_text_color">@android:color/white</color>
+    <color name="colorWhiteTransparent25">#8cbcbbbb</color>
+    <color name="colorWhiteTransparent80">#f4f4f4</color>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Music Structure- Music Player</string>
+
+    <!-- Category name for Search -->
+    <string name="category_search">Search</string>
+
+    <!-- Category name for Playlist -->
+    <string name="category_playlist">Playlist</string>
+    <!-- Category name for Radio -->
+    <string name="category_radio">Radio</string>
+
+    <!-- Category name for Playlist categories -->
+    <string name="Best_Hits_Playlist">Best Hits</string>
+    <string name="Soundtracks_Playlist">Soundtracks</string>
+    <string name="Rock_Songs_Playlist">Rock songs</string>
+    <string name="Rap_Songs_Playlist">Rap songs</string>
+    <string name="Hip_Hop_Songs_Playlist">Hip Hop songs</string>
+    <string name="Add_Playlist">+ Add Playlist</string>
+
+    <!-- Category name content description -->
+    <string name="contentDescription_player">Player buttons.</string>
+    <string name="contentDescription_albums">Album cover.</string>
+    <string name="contentDescription_main_buttons">Main buttons on activity_main.xml.</string>
+
+    <!-- SeekBar -->
+    <string name="Search_Song_Artist_or_Album_text_description">Search Song, Artist or Album</string>
+
+    <!-- Description of every category -->
+    <string name="search_text">Search Screen. It has an EditText at the top of the screen to search your desired music. Below that you will see an image of the album. It has a SeekBar above the media player buttons. It contains 3 buttons at the bottom of the screen play, skip next and skip previous.</string>
+    <string name="playlist_text">Playlist Screen. This screen contains a list of song categories which represent the user\'s library of songs and also an Add Playlist for adding a new song category to your Playlist. By clicking any of the Playlist categories, the Playing activity opens an explicit intent and a chosen song is going to be played.</string>
+    <string name="radio_text">Radio Screen.\nIt will contain a Media Player that streams music
+        from the Cloud services. Below you will see an image of the radio. At the bottom of the screen it has a SeekBar above the media player buttons. It contains 3 buttons at the bottom of the screen:play, skip next and skip previous.</string>
+    <string name="search_description">This App will use Spotify API to search for online music by the Spotify website. On this screen it can be used an option to search in the Spotify. On this screen can be used to search in the Spotify library where the user can define specifications (songs, artists and albums).</string>
+</resources>
